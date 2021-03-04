@@ -1,0 +1,30 @@
+:root {
+  --Preto: #0c0b0b;
+  --Cinza: #0f0e0e;
+  --Branco: #b7b7b7;
+  --Verde: #046313;
+  --Azul: #044a7d;
+  --Amarelo: #725200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--Preto);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cubo {
+  background: var(--Cinza);
+  width: 50rem;
+  height: 20rem;
+}
