@@ -15,6 +15,7 @@
 
 body {
   background: var(--Preto);
+  font-family: "Rubik";
 }
 
 .container {
@@ -25,6 +26,8 @@ body {
   margin-left: 17rem;
 
   color: var(--Branco);
+
+  border-radius: 20px;
 }
 
 .perfil-container {
@@ -33,14 +36,103 @@ body {
 }
 
 .container-numeros {
-  padding-top: 132px;
+  padding-top: 25px;
 
   display: flex;
   justify-content: space-evenly;
 }
 
-#foto {
+.perfil-container > img {
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
+}
+
+.perfil-container > img {
+  margin-left: -130px;
+  margin-top: 20px;
+}
+
+.nome {
+  margin-left: -160px;
+  margin-top: 70px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-right: -200px;
+  margin-top: 70px;
+
+  padding: 10px;
+
+  background: var(--Preto);
+  color: var(--Branco);
+
+  display: flex;
+  align-items: center;
+}
+
+.button > img {
+  width: 20px;
+  height: 20px;
+}
+
+.projetos {
+  background: var(--Verde);
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+
+  border-radius: 10px;
+}
+
+.projetos > p,
+h3 {
+  margin-left: -20px;
+}
+
+.projetos > h3 {
+  font-size: 35px;
+}
+
+.estrelas {
+  background: var(--Azul);
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+
+  border-radius: 10px;
+}
+
+.estrelas > p,
+h3 {
+  margin-left: -20px;
+}
+
+.estrelas > h3 {
+  font-size: 35px;
+}
+
+.seguidores {
+  background: var(--Amarelo);
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+
+  border-radius: 10px;
+}
+
+.seguidores > p,
+h3 {
+  margin-left: -20px;
+}
+
+.seguidores > h3 {
+  font-size: 35px;
 }
